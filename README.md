@@ -72,6 +72,6 @@ Make sure all your Helios Laser DAC's are is plugged in and no software is conne
 
  
 ## Live demo
-https://dinther.github.io/helios_dac/
+[https://dinther.github.io/helios_dac-for-browser/](https://dinther.github.io/helios_dac-for-browser/)
 
 
