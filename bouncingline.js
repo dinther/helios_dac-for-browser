@@ -1,4 +1,4 @@
-import { HeliosPoint } from '/lib/helios_dac.js';
+import { HeliosPoint } from '/dist/helios_dac.js';
 
 class BouncingLine {
     #range

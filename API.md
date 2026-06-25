@@ -3,7 +3,7 @@
 All exports come from `helios_dac.js`.
 
 ```javascript
-import { HeliosPoint, connectHeliosDevice, getHeliosDevices, HeliosDevice } from '/lib/helios_dac.js';
+import { HeliosPoint, connectHeliosDevice, getHeliosDevices, HeliosDevice } from '/dist/helios_dac.js';
 ```
 
 ---
@@ -367,7 +367,7 @@ The DAC plays points at the rate specified by `pps`. A frame of `N` points takes
 `gradient2d.js` is a companion utility that uses Three.js WebGL to render a 2D weighted-interpolation colour gradient. Use it to generate dynamic colour maps to sample from in your `onFrame` callback.
 
 ```javascript
-import { Gradient2D } from '/lib/gradient2d.js';
+import { Gradient2D } from '/gradient2d.js';
 
 const gradient = new Gradient2D(256, 256, document.querySelector('#container'));
 gradient.addColorStop(0.5, 0.5, 1.5, 1.0, 0.0, 0.5); // x, y, weight, r, g, b

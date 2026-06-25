@@ -13,7 +13,7 @@ The [Helios Laser DAC](https://bitlasers.com/helios-laser-dac/) is an open-sourc
 ## Quick start
 
 ```javascript
-import { HeliosPoint, connectHeliosDevice } from '/lib/helios_dac.js';
+import { HeliosPoint, connectHeliosDevice } from '/dist/helios_dac.js';
 
 // Must be called from a user gesture (e.g. button click)
 const device = await connectHeliosDevice();
@@ -39,7 +39,7 @@ device.start();
 `getHeliosDevices()` returns all Helios DACs the browser has already been granted permission to access. Call `connectHeliosDevice()` at least once first so the user can grant permission.
 
 ```javascript
-import { HeliosPoint, connectHeliosDevice, getHeliosDevices } from '/lib/helios_dac.js';
+import { HeliosPoint, connectHeliosDevice, getHeliosDevices } from '/dist/helios_dac.js';
 
 async function connect() {
     await connectHeliosDevice(); // prompts the user to grant permission
